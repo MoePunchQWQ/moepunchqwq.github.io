@@ -21,7 +21,8 @@ hasCJKLanguage: true
 #版权信息
 copyright: Copyright © MoePunch
 
-
+#使得生成的网页默认保存在/docs子目录下
+publishDir: docs
 
 
 
