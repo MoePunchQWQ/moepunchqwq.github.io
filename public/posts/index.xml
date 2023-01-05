@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on MoePunch 的网站</title>
+        <link>http://example.org/posts/</link>
+        <description>Recent content in Posts on MoePunch 的网站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Copyright © MoePunch</copyright>
+        <lastBuildDate>Thu, 05 Jan 2023 21:25:46 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CC</title>
+        <link>http://example.org/posts/cc/cc/</link>
+        <pubDate>Thu, 05 Jan 2023 21:25:46 +0800</pubDate>
+        
+        <guid>http://example.org/posts/cc/cc/</guid>
+        <description>&lt;img src="https://ii.bobopic.com/tu/56590713.jpg" alt="Featured image of post CC" /&gt;&lt;h1 id=&#34;署名-非商业性使用-相同方式共享-40-国际-cc-by-nc-sa-40&#34;&gt;署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-a-human-readable-summary-of-and-not-a-substitute-for-the-license-免责声明&#34;&gt;This is a human-readable summary of (and not a substitute for) the license. 免责声明.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;您可以自由地：&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;共享&lt;/strong&gt; — 在任何媒介以任何形式复制、发行本作品&lt;br&gt;
+&lt;strong&gt;演绎&lt;/strong&gt; — 修改、转换或以本作品为基础进行创作&lt;br&gt;
+只要你遵守许可协议条款，许可人就无法收回你的这些权利。&lt;br&gt;
+&lt;strong&gt;惟须遵守下列条件：&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;署名&lt;/strong&gt; — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;非商业性使用&lt;/strong&gt; — 您不得将本作品用于商业目的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相同方式共享&lt;/strong&gt; — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议 分发您贡献的作品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;没有附加限制&lt;/strong&gt; — 您不得适用法律术语或者 技术措施 从而限制其他人做许可协议允许的事情。&lt;br&gt;
+&lt;strong&gt;声明：&lt;/strong&gt;&lt;br&gt;
+您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 例外或限制所允许。&lt;br&gt;
+不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如形象权、隐私权或人格权可能限制您如何使用作品。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>http://example.org/posts/test/test/</link>
+        <pubDate>Thu, 05 Jan 2023 20:36:20 +0800</pubDate>
+        
+        <guid>http://example.org/posts/test/test/</guid>
+        <description>&lt;h1 id=&#34;and-you-are-the-last-one-had-me-feeling-worthless&#34;&gt;And you are the last one had me feeling worthless&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Latin test&lt;br&gt;
+Y aunque lo intentara, no podría sin ti,&lt;/li&gt;
+&lt;li&gt;toda mi felicidad es &lt;em&gt;&lt;strong&gt;gracias&lt;/strong&gt;&lt;/em&gt; a ti,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Y si yo me muero &lt;em&gt;&lt;strong&gt;volvería&lt;/strong&gt;&lt;/em&gt; por ti.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Pasa&amp;rsquo; como que &lt;strong&gt;no&lt;/strong&gt; me ha&amp;rsquo; visto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Solo cuando llueve me buscas&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solo cuando hay frío te asustas&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;这是 Unicode 字符测试&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;明日之盛&lt;/strong&gt;&lt;/em&gt;，&lt;em&gt;昨日&lt;/em&gt;之俗&lt;br&gt;
+明日ハレの日、ケの&lt;strong&gt;昨日&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;即使你脸上又多了几道&lt;em&gt;&lt;strong&gt;皱纹&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;例えば&lt;em&gt;君の&lt;/em&gt;顔に昔よりシワが&lt;strong&gt;増え&lt;/strong&gt;ても&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;不需要&lt;/strong&gt;&lt;/em&gt;你的&lt;em&gt;花言巧语&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;素晴らしい&lt;strong&gt;特別もいら&lt;/strong&gt;ない&lt;br&gt;
+&lt;em&gt;对你的爱就要溢出来了呢&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;愛が溢れていく&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;亲爱的 你的梦想实现了吧&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://example.org/posts/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/posts/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://example.org/posts/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/posts/links/</guid>
+        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ts-logo-128.jpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://example.org/posts/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/posts/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>http://example.org/posts/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/posts/about/</guid>
+        <description>&lt;h1 id=&#34;这是一点关于这篇网站的信息同时也是一篇测试-i18n-的文章&#34;&gt;这是一点关于这篇网站的信息，同时也是一篇测试 i18n 的文章。&lt;/h1&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
