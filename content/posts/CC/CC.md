@@ -1,10 +1,9 @@
 ---
-title: "CC"
+title: "署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)"
 date: 2023-01-05T21:25:46+08:00
 image: https://ii.bobopic.com/tu/56590713.jpg
---- 
-# 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)  
-## This is a human-readable summary of (and not a substitute for) the license. 免责声明.
+---   
+## This is a human-readable summary of (and not a substitute for) the license.   免责声明.
 
 **您可以自由地：**  
 **共享** — 在任何媒介以任何形式复制、发行本作品  

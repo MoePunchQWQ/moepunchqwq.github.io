@@ -56,7 +56,7 @@
             {{ end }}
         </ol>
     {{- end -}}
-
+    <iframe frameborder="no" width=160 height=52 src="https://music.163.com/outchain/player?type=2&id=450280057&auto=1&height=32"></iframe>
     <ol class="menu" id="main-menu">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
@@ -87,7 +87,6 @@
                     </select>
                 </li>
             {{ end }}
-            
             {{ if (default false .Site.Params.colorScheme.toggle) }}
                 <li id="dark-mode-toggle">
                     {{ partial "helper/icon" "toggle-left" }}

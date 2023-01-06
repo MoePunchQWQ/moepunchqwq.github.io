@@ -7,14 +7,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Copyright © MoePunch</copyright>
-        <lastBuildDate>Thu, 05 Jan 2023 21:25:46 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CC</title>
+        <lastBuildDate>Fri, 06 Jan 2023 10:43:44 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于HTML5与CSS</title>
+        <link>http://example.org/posts/%E5%A3%B0%E6%98%8E/%E5%A3%B0%E6%98%8E/</link>
+        <pubDate>Fri, 06 Jan 2023 10:43:44 +0800</pubDate>
+        
+        <guid>http://example.org/posts/%E5%A3%B0%E6%98%8E/%E5%A3%B0%E6%98%8E/</guid>
+        <description>&lt;img src="https://ii.bobopic.com/tu/68010899.jpg" alt="Featured image of post 关于HTML5与CSS" /&gt;&lt;h1 id=&#34;关于-html5&#34;&gt;关于 HTML5&lt;/h1&gt;
+&lt;p&gt;HTML5 是构建 Web 内容的一种语言描述方式。HTML5 是互联网的下一代标准，是构建以及呈现互联网内容的一种语言方式．被认为是互联网的核心技术之一。HTML 产生于 1990 年，1997 年 HTML4 成为互联网标准，并广泛应用于互联网应用的开发。&lt;br&gt;
+HTML5 是 Web 中核心语言 HTML 的规范，用户使用任何手段进行网页浏览时看到的内容原本都是 HTML 格式的，在浏览器中通过一些技术处理将其转换成为了可识别的信息。HTML5 在从前 HTML4.01 的基础上进行了一定的改进，虽然技术人员在开发过程中可能不会将这些新技术投入应用，但是对于该种技术的新特性，网站开发技术人员是必须要有所了解的。&lt;/p&gt;
+&lt;h1 id=&#34;关于-css&#34;&gt;关于 CSS&lt;/h1&gt;
+&lt;p&gt;层叠样式表 ( 英文全称：Cascading Style Sheets ) 是一种用来表现 HTML（标准通用标记语言的一个应用）或 XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS 不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。&lt;br&gt;
+CSS 能够对网页中元素位置的排版进行像素级精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</title>
         <link>http://example.org/posts/cc/cc/</link>
         <pubDate>Thu, 05 Jan 2023 21:25:46 +0800</pubDate>
         
         <guid>http://example.org/posts/cc/cc/</guid>
-        <description>&lt;img src="https://ii.bobopic.com/tu/56590713.jpg" alt="Featured image of post CC" /&gt;&lt;h1 id=&#34;署名-非商业性使用-相同方式共享-40-国际-cc-by-nc-sa-40&#34;&gt;署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)&lt;/h1&gt;
-&lt;h2 id=&#34;this-is-a-human-readable-summary-of-and-not-a-substitute-for-the-license-免责声明&#34;&gt;This is a human-readable summary of (and not a substitute for) the license. 免责声明.&lt;/h2&gt;
+        <description>&lt;img src="https://ii.bobopic.com/tu/56590713.jpg" alt="Featured image of post 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)" /&gt;&lt;h2 id=&#34;this-is-a-human-readable-summary-of-and-not-a-substitute-for-the-license---免责声明&#34;&gt;This is a human-readable summary of (and not a substitute for) the license.   免责声明.&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;您可以自由地：&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;共享&lt;/strong&gt; — 在任何媒介以任何形式复制、发行本作品&lt;br&gt;
 &lt;strong&gt;演绎&lt;/strong&gt; — 修改、转换或以本作品为基础进行创作&lt;br&gt;
@@ -78,39 +91,11 @@ Y aunque lo intentara, no podría sin ti,&lt;/li&gt;
 </description>
         </item>
         <item>
-        <title>Archives</title>
+        <title>档案</title>
         <link>http://example.org/posts/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
         <guid>http://example.org/posts/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Links</title>
-        <link>http://example.org/posts/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://example.org/posts/links/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.com&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ts-logo-128.jpg&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>http://example.org/posts/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://example.org/posts/search/</guid>
         <description></description>
         </item>
         <item>
@@ -119,7 +104,38 @@ Y aunque lo intentara, no podría sin ti,&lt;/li&gt;
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://example.org/posts/about/</guid>
-        <description>&lt;h1 id=&#34;这是一点关于这篇网站的信息同时也是一篇测试-i18n-的文章&#34;&gt;这是一点关于这篇网站的信息，同时也是一篇测试 i18n 的文章。&lt;/h1&gt;
+        <description>&lt;img src="https://ii.bobopic.com/tu/102428724.jpg" alt="Featured image of post 关于" /&gt;&lt;h1 id=&#34;这是一点关于这篇网站的信息同时也是一篇测试-i18n-的文章&#34;&gt;这是一点关于这篇网站的信息，同时也是一篇测试 i18n 的文章。&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;你需要了解点什么：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本网站所有的文章包括这篇都采用 Markdown 语法编写。&lt;/li&gt;
+&lt;li&gt;对于此网站，本人用于发表一些文章和教程。&lt;/li&gt;
+&lt;li&gt;本网站的&lt;strong&gt;所有文章&lt;/strong&gt;都遵循 CC BY-NC-SA 4.0 协议，即你可以自由的共享，修改本站的所有文章，但是要署名，同样遵守 CC BY-NC-SA 4.0 协议，且&lt;strong&gt;不得&lt;/strong&gt;用于商业目的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;你需要注意点什么&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages 不是法外之地，你所做的一切都被 GFW 监控着，如果评论系统上线，请不要随意发表对&lt;strong&gt;国家，政治，民族，暴力&lt;/strong&gt;等敏感内容的评价。&lt;/li&gt;
+&lt;li&gt;本网站目前完成度很低，如果发现什么 bug 请不要声张。 o((&amp;gt;ω&amp;lt; ))o&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>链接</title>
+        <link>http://example.org/posts/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/posts/links/</guid>
+        <description>&lt;h1 id=&#34;这里是一些-链接&#34;&gt;这里是一些 &lt;code&gt;链接&lt;/code&gt;。&lt;/h1&gt;
+&lt;p&gt;这个网站的&lt;strong&gt;前言&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Tzlicecream&amp;#39;s Blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Tzlicecream is a student in Changzhou,Jiangsu Province,China&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://tzlicecream.github.io/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Tzlicecream.jpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;MoePunch&amp;#39;s GitHub Mainpage&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;MoePunch is a student in Gaozhou,Guangdong,China,who also owns this website.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.com/MoePunchQWQ&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;MoePunch-GitHub.jpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;图床&lt;/code&gt; 同时接受本地与在线的图片。&lt;/p&gt;
 </description>
         </item>
         

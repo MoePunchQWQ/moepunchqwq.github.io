@@ -27,10 +27,9 @@ publishDir: docs
 
 
 
-module:
-    hugoVersion:
-        extended: true
-        min: "0.87.0"
+hugoVersion:
+    extended: true
+    min: "0.87.0"
 
 params:
     mainSections:
@@ -79,6 +78,7 @@ params:
             repo:
             issueTerm: pathname
             label:
+            theme: dark-orange
 
         remark42:
             host:
@@ -92,6 +92,9 @@ params:
             clientId:
             clientSecret:
             autoCreateIssue: false
+            
+        outputs: 
+            home: html,rss,json
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
@@ -141,6 +144,10 @@ params:
             id:
 
     widgets:
+        enabled: 
+            - search
+            - archives
+            - tag-cloud
         homepage: []
         page: []
 
