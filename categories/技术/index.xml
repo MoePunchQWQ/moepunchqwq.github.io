@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>技术 on MoePunch 的小站</title>
+        <link>https://moepunchqwq.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+        <description>Recent content in 技术 on MoePunch 的小站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Copyright © MoePunch</copyright>
+        <lastBuildDate>Fri, 14 Jul 2023 10:31:22 +0800</lastBuildDate><atom:link href="https://moepunchqwq.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>将 iPod touch 4 从 iOS6.1.6 降级到 iOS 5.1.1</title>
+        <link>https://moepunchqwq.github.io/posts/%E5%B0%86-ipod-touch-4-%E4%BB%8E-ios6.1.6-%E9%99%8D%E7%BA%A7%E5%88%B0-ios-5.1.1/</link>
+        <pubDate>Fri, 14 Jul 2023 10:31:22 +0800</pubDate>
+        
+        <guid>https://moepunchqwq.github.io/posts/%E5%B0%86-ipod-touch-4-%E4%BB%8E-ios6.1.6-%E9%99%8D%E7%BA%A7%E5%88%B0-ios-5.1.1/</guid>
+        <description>&lt;img src="https://s1.ax1x.com/2023/07/14/pC4lF7F.jpg" alt="Featured image of post 将 iPod touch 4 从 iOS6.1.6 降级到 iOS 5.1.1" /&gt;&lt;h1 id=&#34;系统要求&#34;&gt;系统要求&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC4ldnf.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;pC4ldnf.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一台搭载了 Windows 7 SP1 的计算机 (不推荐使用其他 Windows 版本，可能会有兼容性问题。)&lt;/li&gt;
+&lt;li&gt;一部搭载了 iOS 5.1.1 以上的 iPod touch 4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;所需软件&#34;&gt;所需软件&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;iTunes 11&lt;/li&gt;
+&lt;li&gt;iFaith 1.5.9&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.123pan.com/s/I6SiVv-HxThv.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点这里下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;安装软件&#34;&gt;安装软件&lt;/h1&gt;
+&lt;p&gt;解压上面下载的 &lt;strong&gt;Touch4.7z&lt;/strong&gt;，得到 &lt;strong&gt;iFaithv1.5.9.exe&lt;/strong&gt; 和 &lt;strong&gt;iTunes64Setup.exe&lt;/strong&gt; 两个文件，先打开 &lt;strong&gt;iTunes64Setup.exe&lt;/strong&gt;，进行安装。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC4lo4J.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+安装完成后，我们将 iPod 连接到电脑，打开 iTunes ，观察是否连接成功。注意，如果 iTunes 弹出询问更新的弹窗，选择 &lt;strong&gt;请勿下载&lt;/strong&gt;。
+这里是我的设备信息，如果你的设备连接正常，也可以看见类似的界面。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC4ljHO.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+接下来，关闭 iTunes ，打开 iFaith 1.5.9 。进入主界面后，选中左下角的 &lt;strong&gt;Show Available SHSH Caches on Server&lt;/strong&gt; 。在弹出的弹窗中，我们确认显示设备为我们的 iPod 后，点击&lt;strong&gt;是&lt;/strong&gt;。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC41d2R.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+随后， iFaith 会与 Cydia 和 iAcqua 的服务器通信以查询可用的 SHSH 文件。查询完毕以后，应该会出现以下界面：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC41rqK.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+我们点击最下面的 &lt;strong&gt;Show list of available SHSH blobs on TSS&lt;/strong&gt; ，然后你会看到服务器上所有可用的 SHSH ，我的 iPod 只有一个 iOS5.1.1 的 SHSH ，选中你想要下载的 SHSH 文件，点击 &lt;strong&gt;Download Selected&lt;/strong&gt; ，将 SHSH 文件保存在你容易找到的地方。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC41HIg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+下载完成后，会有这样的弹窗：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC41zLV.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+接下来可能还会有一个 &lt;strong&gt;Verified Failed&lt;/strong&gt; 的报错，点击确定，忽视即可。点击左下角的 &lt;strong&gt;Main Menu&lt;/strong&gt;，回到主界面。点击左上角的 &lt;strong&gt;Build&amp;hellip;&lt;/strong&gt; 按钮。再点击 &lt;strong&gt;Browse for SHSH blobs&lt;/strong&gt;，选中你刚才下载的 SHSH 文件。接下来还有可能报错，点击确定忽视即可，如果不出意外，这些错误都是无法与服务器取得通信以验证 SHSH 合法性的报错，不影响我们降级的操作和结果。随后，打开[爱思助手] (&lt;a class=&#34;link&#34; href=&#34;https://www.i4.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.i4.cn&lt;/a&gt;) 的官网，在上面边栏中选中&lt;strong&gt;固件&lt;/strong&gt;。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC43Jyt.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+然后，按照下图选好你需要降级到的 iOS 版本。（这里的下载版本依你上面下载 SHSH 文件的版本而定，比如我下载的是 5.1.1 ，故我下载固件也是 iOS5.1.1 的固件。）
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC43gmV.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+下载固件。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC43RTU.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+下载完成之后，我们回到 iFaith ，点击左边的 &lt;strong&gt;Browse for an IPSW&lt;/strong&gt; ，选中我们刚刚下载的固件。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC43XkD.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+点击右下角的 &lt;strong&gt;Build IPSW&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC43zpd.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+操作完成后，会有一个弹窗提示，点击确定。这时候 iFaith 会让你引导到 pwnDFU 模式，将手机关机，确保你准备好了之后点击 Start。等待5秒，按照图示操作，先电源键与 Home 键一起按住 10 秒，再松开电源键，按住 Home 键，进入 pwnDFU 模式后 iTunes 会弹出来。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC48s4e.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+点击确定后，按住 Shift 键，鼠标左键点击 &lt;strong&gt;恢复 iPod&lt;/strong&gt;，选中 iFaith 制作的固件（位于你的桌面上，带有 &lt;strong&gt;iFaith&lt;/strong&gt; 的字样）。 iTunes 会开始将固件刷入 iPod 。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/07/14/pC4tkKs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+刷入完成以后，iPod 会自动开机，按照提示激活即可。&lt;br&gt;
+注：刚激活完以后如果按地球仪键切换输入法遇到 SpringBoard 闪退的现象，进入设置中删除一种键盘再添加即可。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MicroPython on ESP8266</title>
+        <link>https://moepunchqwq.github.io/posts/micropython-on-esp8266/</link>
+        <pubDate>Sat, 04 Mar 2023 21:11:00 +0800</pubDate>
+        
+        <guid>https://moepunchqwq.github.io/posts/micropython-on-esp8266/</guid>
+        <description>&lt;img src="https://s1.ax1x.com/2023/01/28/pSaVP00.jpg" alt="Featured image of post MicroPython on ESP8266" /&gt;&lt;h1 id=&#34;1搭建烧录环境&#34;&gt;1.搭建烧录环境&lt;/h1&gt;
+&lt;h2 id=&#34;1安装-python&#34;&gt;(1).安装 Python&lt;/h2&gt;
+&lt;p&gt;到 &lt;a class=&#34;link&#34; href=&#34;https://www.python.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Python官网&lt;/a&gt; 下载对应自己平台的 Python 并安装。本文撰写时 Python 的最新版本为 3.11.2。Windows 系统安装时需要将 Python 添加到环境变量。&lt;/p&gt;
+&lt;h2 id=&#34;2下载-esptools&#34;&gt;(2).下载 ESPTools&lt;/h2&gt;
+&lt;p&gt;我们用 ESPTools 来烧写 MicroPython，ESPTools 支持 Windows/macOS/Linux 三大主流桌面系统，&lt;a class=&#34;link&#34; href=&#34;https://github.com/espressif/esptool/releases/&#34;  title=&#34;GitHub Releases 页面&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;你可以在这里下载到 ESPTools&lt;/a&gt;，同时，你也可以在 pip 中安装它&lt;br&gt;
+&lt;code&gt;pip install esptool&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3配置开发板&#34;&gt;(3).配置开发板&lt;/h2&gt;
+&lt;p&gt;如果你用的是 &lt;strong&gt;Windows&lt;/strong&gt;，你需要先安装 USB2SerialPort 驱动，ESP8266 模块上常见的有串口芯片有 CP2102 和 CH340/341 两种，可以自行 Google 搜索安装。
+将开发板连接到电脑上。打开设备管理器 - 端口（ COM 和 LPT )。如果连接正常，你应该可以看到开发板已经被正确识别，像这样：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEeo1U.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEeo1U.png&#34;
+	
+	
+&gt;&lt;br&gt;
+双击串口设备，打开端口设置，将位/秒选项更改为115200，像这样：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEeIpT.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEeIpT.png&#34;
+	
+	
+&gt;&lt;br&gt;
+点击确定，关闭任务管理器窗口。&lt;/p&gt;
+&lt;h2 id=&#34;4识别开发板&#34;&gt;(4).识别开发板&lt;/h2&gt;
+&lt;p&gt;我们用 ESPTools 检验开发板是否被正确识别，使用这个命令（如果是 Windows 系统，esptools.&lt;strong&gt;py&lt;/strong&gt; 更换为 esptools.&lt;strong&gt;exe&lt;/strong&gt;)：
+&lt;code&gt;esptool.py flash_id&lt;/code&gt;&lt;br&gt;
+如果开发板被正确识别，命令执行结果如下图：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEnZZ9.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEnZZ9.md.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;在这一步，我们可以识别到开发板的具体信息。我们需要读出 &lt;strong&gt;Detected flash size&lt;/strong&gt; 的值。如图，我的是 4MB 。&lt;/p&gt;
+&lt;h1 id=&#34;2固件的下载与烧录&#34;&gt;2.固件的下载与烧录&lt;/h1&gt;
+&lt;p&gt;接下来，我们按照读取出来的 Flash size 下载合适的固件。打开 &lt;a class=&#34;link&#34; href=&#34;https://micropython.org/download/?port=esp8266&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MicroPython&lt;/a&gt; 官网网址，在页面底端按照自己的 Flash size 下载合适的固件。
+我下载的是 2MiB+ 里面 release 渠道的 esp8266-20220618-v1.19.1.bin
+现在，我们需要将开发板中的固件擦除，在终端中执行以下命令：&lt;br&gt;
+Linux 用这个：&lt;br&gt;
+&lt;code&gt;esptool.py --port /dev/ttyUSB0 erase_flash&lt;/code&gt;&lt;br&gt;
+Windows 用这个：&lt;br&gt;
+&lt;code&gt;esptool.exe --port 这里填你的 COM 号 erase_flash&lt;/code&gt;&lt;br&gt;
+我的执行结果如下：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEmENt.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEmENt.md.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;现在我们来烧录固件。使用以下命令：&lt;br&gt;
+Linux 用这个：&lt;br&gt;
+&lt;code&gt;esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=detect 0 这里填你下载的 bin&lt;/code&gt;&lt;br&gt;
+Windows 用这个：&lt;br&gt;
+&lt;code&gt;esptool.exe --port 这里填你的 COM 号 --baud 115200 write_flash --flash_size=detect 0 这里填你下载的 bin&lt;/code&gt;&lt;br&gt;
+我的烧写过程如下： &lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEnaJP.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEnaJP.md.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;3开发板的连接与调试&#34;&gt;3.开发板的连接与调试&lt;/h1&gt;
+&lt;p&gt;烧录过程完毕。我们现在用串口软件连接开发板。我们在这里采用 Windows Terminal + PuTTY 的方案。&lt;/p&gt;
+&lt;h2 id=&#34;1下载-putty&#34;&gt;(1).下载 PuTTY&lt;/h2&gt;
+&lt;p&gt;我们从&lt;a class=&#34;link&#34; href=&#34;https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这里&lt;/a&gt;下载 PuTTY。我选择的是安装版。&lt;/p&gt;
+&lt;h2 id=&#34;2配置-putty-与-windows-terminal&#34;&gt;(2).配置 PuTTY 与 Windows Terminal&lt;/h2&gt;
+&lt;p&gt;首先我们打开 PuTTY，按照你的具体信息配置好 PuTTY，Save 保存方案，我的如下：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEnxyD.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEnxyD.png&#34;
+	
+	
+&gt;&lt;br&gt;
+接下来我们打开 Windows Terminal ，进入 Windows Terminal 的设置：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEu9wd.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEu9wd.md.png&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEuiFI.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEuiFI.md.png&#34;
+	
+	
+&gt;&lt;br&gt;
+然后，我们在 Windows Terminal 中新建配置文件：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEukfP.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEukfP.md.png&#34;
+	
+	
+&gt;&lt;br&gt;
+名称按照自己的喜好编写，在 &lt;strong&gt;命令行&lt;/strong&gt; 中，我们这样配置：&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEuGlT.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEuGlT.md.png&#34;
+	
+	
+&gt;&lt;br&gt;
+浏览选择你 PuTTY 安装目录下的 plink.exe，在后面加上 &lt;code&gt;-load &amp;quot;你先前保存的配置文件名&amp;quot;&lt;/code&gt; 的参数，并将 &lt;strong&gt;以管理员身份运行此配置文件&lt;/strong&gt; 的选项启用，点击保存。
+然后，新建一个 Consle ，配置文件选择我们刚刚创建的。可以看到，一切都正常使用。&lt;br&gt;
+&lt;img src=&#34;https://s1.ax1x.com/2023/03/04/ppEuBfx.md.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ppEuBfx.md.png&#34;
+	
+	
+&gt;&lt;br&gt;
+到现在，你已经完成了 MicroPython on ESP8266 的所有安装步骤。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</title>
+        <link>https://moepunchqwq.github.io/posts/cc/</link>
+        <pubDate>Thu, 05 Jan 2023 21:25:46 +0800</pubDate>
+        
+        <guid>https://moepunchqwq.github.io/posts/cc/</guid>
+        <description>&lt;img src="https://s1.ax1x.com/2023/01/28/pSaVkkT.jpg" alt="Featured image of post 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)" /&gt;&lt;h2 id=&#34;this-is-a-human-readable-summary-of-and-not-a-substitute-for-the-license---免责声明&#34;&gt;This is a human-readable summary of (and not a substitute for) the license.   免责声明.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;您可以自由地：&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;共享&lt;/strong&gt; — 在任何媒介以任何形式复制、发行本作品&lt;br&gt;
+&lt;strong&gt;演绎&lt;/strong&gt; — 修改、转换或以本作品为基础进行创作&lt;br&gt;
+只要你遵守许可协议条款，许可人就无法收回你的这些权利。&lt;br&gt;
+&lt;strong&gt;惟须遵守下列条件：&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;署名&lt;/strong&gt; — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;非商业性使用&lt;/strong&gt; — 您不得将本作品用于商业目的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相同方式共享&lt;/strong&gt; — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议 分发您贡献的作品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;没有附加限制&lt;/strong&gt; — 您不得适用法律术语或者 技术措施 从而限制其他人做许可协议允许的事情。&lt;br&gt;
+&lt;strong&gt;声明：&lt;/strong&gt;&lt;br&gt;
+您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 例外或限制所允许。&lt;br&gt;
+不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如形象权、隐私权或人格权可能限制您如何使用作品。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on MoePunch 的小站</title>
+        <link>https://moepunchqwq.github.io/categories/</link>
+        <description>Recent content in Categories on MoePunch 的小站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Copyright © MoePunch</copyright>
+        <lastBuildDate>Fri, 14 Jul 2023 10:31:22 +0800</lastBuildDate><atom:link href="https://moepunchqwq.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>技术</title>
+        <link>https://moepunchqwq.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+        <pubDate>Fri, 14 Jul 2023 10:31:22 +0800</pubDate>
+        
+        <guid>https://moepunchqwq.github.io/categories/%E6%8A%80%E6%9C%AF/</guid>
+        <description>&lt;img src="https://s1.ax1x.com/2023/02/11/pS4Jj9e.jpg" alt="Featured image of post 技术" /&gt;</description>
+        </item>
+        <item>
+        <title>革命</title>
+        <link>https://moepunchqwq.github.io/categories/%E9%9D%A9%E5%91%BD/</link>
+        <pubDate>Tue, 31 Jan 2023 12:30:49 +0800</pubDate>
+        
+        <guid>https://moepunchqwq.github.io/categories/%E9%9D%A9%E5%91%BD/</guid>
+        <description>&lt;img src="https://s1.ax1x.com/2023/02/11/pS4JOhD.jpg" alt="Featured image of post 革命" /&gt;</description>
+        </item>
+        <item>
+        <title>文学</title>
+        <link>https://moepunchqwq.github.io/categories/%E6%96%87%E5%AD%A6/</link>
+        <pubDate>Tue, 31 Jan 2023 12:30:49 +0800</pubDate>
+        
+        <guid>https://moepunchqwq.github.io/categories/%E6%96%87%E5%AD%A6/</guid>
+        <description>&lt;img src="https://s1.ax1x.com/2023/02/11/pS4JLtO.jpg" alt="Featured image of post 文学" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

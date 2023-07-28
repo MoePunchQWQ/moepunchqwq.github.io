@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='1.搭建烧录环境 (1).安装 Python 到 Python官网 下载对应自己平台的 Python 并安装。本文撰写时 Python 的最新版本为 3.11.2。Windows 系统安装时需'>
+<meta name="keywords" content="ESP8266, ESP32, Arduino, MicroPython"><title>MicroPython on ESP8266</title>
+
+<link rel='canonical' href='https://moepunchqwq.github.io/posts/micropython-on-esp8266/'>
+
+<link rel="stylesheet" href="/scss/style.min.d7883a03359e1e828dcfa11e89793fd91674e4ffc68ed15ff566111cc100a786.css"><meta property='og:title' content='MicroPython on ESP8266'>
+<meta property='og:description' content='1.搭建烧录环境 (1).安装 Python 到 Python官网 下载对应自己平台的 Python 并安装。本文撰写时 Python 的最新版本为 3.11.2。Windows 系统安装时需'>
+<meta property='og:url' content='https://moepunchqwq.github.io/posts/micropython-on-esp8266/'>
+<meta property='og:site_name' content='MoePunch 的小站'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='技术' /><meta property='article:tag' content='电子' /><meta property='article:tag' content='物联网' /><meta property='article:published_time' content='2023-03-04T21:11:00&#43;08:00'/><meta property='article:modified_time' content='2023-03-04T21:11:00&#43;08:00'/><meta property='og:image' content='https://s1.ax1x.com/2023/01/28/pSaVP00.jpg' />
+<meta name="twitter:title" content="MicroPython on ESP8266">
+<meta name="twitter:description" content="1.搭建烧录环境 (1).安装 Python 到 Python官网 下载对应自己平台的 Python 并安装。本文撰写时 Python 的最新版本为 3.11.2。Windows 系统安装时需"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://s1.ax1x.com/2023/01/28/pSaVP00.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/head_hu37da405af8379b1137302c34afc0c211_69693_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🏸</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">MoePunch 的小站</a></h1>
+            <h2 class="site-description">希君生羽翼，一化北溟鱼。</h2>
+        </div>
+    </header><iframe frameborder="no" width=160 height=52 src="https://music.163.com/outchain/player?type=2&id=1498613705&auto=0&height=32"></iframe>
+    <ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/posts/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/posts/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/posts/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/posts/micropython-on-esp8266/">
+                
+                    <img src="https://s1.ax1x.com/2023/01/28/pSaVP00.jpg" loading="lazy" alt="Featured image of post MicroPython on ESP8266" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8A%80%E6%9C%AF/" >
+                技术
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/micropython-on-esp8266/">MicroPython on ESP8266</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 04, 2023</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="1搭建烧录环境">1.搭建烧录环境</h1>
+<h2 id="1安装-python">(1).安装 Python</h2>
+<p>到 <a class="link" href="https://www.python.org/"  target="_blank" rel="noopener"
+    >Python官网</a> 下载对应自己平台的 Python 并安装。本文撰写时 Python 的最新版本为 3.11.2。Windows 系统安装时需要将 Python 添加到环境变量。</p>
+<h2 id="2下载-esptools">(2).下载 ESPTools</h2>
+<p>我们用 ESPTools 来烧写 MicroPython，ESPTools 支持 Windows/macOS/Linux 三大主流桌面系统，<a class="link" href="https://github.com/espressif/esptool/releases/"  title="GitHub Releases 页面"
+     target="_blank" rel="noopener"
+    >你可以在这里下载到 ESPTools</a>，同时，你也可以在 pip 中安装它<br>
+<code>pip install esptool</code></p>
+<h2 id="3配置开发板">(3).配置开发板</h2>
+<p>如果你用的是 <strong>Windows</strong>，你需要先安装 USB2SerialPort 驱动，ESP8266 模块上常见的有串口芯片有 CP2102 和 CH340/341 两种，可以自行 Google 搜索安装。
+将开发板连接到电脑上。打开设备管理器 - 端口（ COM 和 LPT )。如果连接正常，你应该可以看到开发板已经被正确识别，像这样：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEeo1U.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEeo1U.png"
+	
+	
+><br>
+双击串口设备，打开端口设置，将位/秒选项更改为115200，像这样：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEeIpT.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEeIpT.png"
+	
+	
+><br>
+点击确定，关闭任务管理器窗口。</p>
+<h2 id="4识别开发板">(4).识别开发板</h2>
+<p>我们用 ESPTools 检验开发板是否被正确识别，使用这个命令（如果是 Windows 系统，esptools.<strong>py</strong> 更换为 esptools.<strong>exe</strong>)：
+<code>esptool.py flash_id</code><br>
+如果开发板被正确识别，命令执行结果如下图：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEnZZ9.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEnZZ9.md.png"
+	
+	
+></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>在这一步，我们可以识别到开发板的具体信息。我们需要读出 <strong>Detected flash size</strong> 的值。如图，我的是 4MB 。</p>
+<h1 id="2固件的下载与烧录">2.固件的下载与烧录</h1>
+<p>接下来，我们按照读取出来的 Flash size 下载合适的固件。打开 <a class="link" href="https://micropython.org/download/?port=esp8266"  target="_blank" rel="noopener"
+    >MicroPython</a> 官网网址，在页面底端按照自己的 Flash size 下载合适的固件。
+我下载的是 2MiB+ 里面 release 渠道的 esp8266-20220618-v1.19.1.bin
+现在，我们需要将开发板中的固件擦除，在终端中执行以下命令：<br>
+Linux 用这个：<br>
+<code>esptool.py --port /dev/ttyUSB0 erase_flash</code><br>
+Windows 用这个：<br>
+<code>esptool.exe --port 这里填你的 COM 号 erase_flash</code><br>
+我的执行结果如下：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEmENt.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEmENt.md.png"
+	
+	
+></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>现在我们来烧录固件。使用以下命令：<br>
+Linux 用这个：<br>
+<code>esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=detect 0 这里填你下载的 bin</code><br>
+Windows 用这个：<br>
+<code>esptool.exe --port 这里填你的 COM 号 --baud 115200 write_flash --flash_size=detect 0 这里填你下载的 bin</code><br>
+我的烧写过程如下： <br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEnaJP.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEnaJP.md.png"
+	
+	
+></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h1 id="3开发板的连接与调试">3.开发板的连接与调试</h1>
+<p>烧录过程完毕。我们现在用串口软件连接开发板。我们在这里采用 Windows Terminal + PuTTY 的方案。</p>
+<h2 id="1下载-putty">(1).下载 PuTTY</h2>
+<p>我们从<a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"  target="_blank" rel="noopener"
+    >这里</a>下载 PuTTY。我选择的是安装版。</p>
+<h2 id="2配置-putty-与-windows-terminal">(2).配置 PuTTY 与 Windows Terminal</h2>
+<p>首先我们打开 PuTTY，按照你的具体信息配置好 PuTTY，Save 保存方案，我的如下：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEnxyD.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEnxyD.png"
+	
+	
+><br>
+接下来我们打开 Windows Terminal ，进入 Windows Terminal 的设置：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEu9wd.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEu9wd.md.png"
+	
+	
+><br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEuiFI.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEuiFI.md.png"
+	
+	
+><br>
+然后，我们在 Windows Terminal 中新建配置文件：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEukfP.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEukfP.md.png"
+	
+	
+><br>
+名称按照自己的喜好编写，在 <strong>命令行</strong> 中，我们这样配置：<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEuGlT.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEuGlT.md.png"
+	
+	
+><br>
+浏览选择你 PuTTY 安装目录下的 plink.exe，在后面加上 <code>-load &quot;你先前保存的配置文件名&quot;</code> 的参数，并将 <strong>以管理员身份运行此配置文件</strong> 的选项启用，点击保存。
+然后，新建一个 Consle ，配置文件选择我们刚刚创建的。可以看到，一切都正常使用。<br>
+<img src="https://s1.ax1x.com/2023/03/04/ppEuBfx.md.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ppEuBfx.md.png"
+	
+	
+><br>
+到现在，你已经完成了 MicroPython on ESP8266 的所有安装步骤。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E6%8A%80%E6%9C%AF/">技术</a>
+        
+            <a href="/tags/%E7%94%B5%E5%AD%90/">电子</a>
+        
+            <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91/">物联网</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>本文遵守 CC BY-NC-SA 4.0 协议</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 MoePunch 的小站
+    </section>
+    
+    <section class="powerby">
+        本站基于 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 框架 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">JimmyCai</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
