@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MoePunch's Blog</title><link>https://moepunchqwq.github.io/en/</link><description>Recent content on MoePunch's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 MoePunch · Content licensed under CC BY-NC-SA 4.0</copyright><lastBuildDate>Wed, 24 Sep 2025 19:56:08 +0800</lastBuildDate><atom:link href="https://moepunchqwq.github.io/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Article</title><link>https://moepunchqwq.github.io/en/docs/test-article/</link><pubDate>Wed, 24 Sep 2025 19:56:08 +0800</pubDate><guid>https://moepunchqwq.github.io/en/docs/test-article/</guid><description>&lt;h1 class="relative group"&gt;This is a test article
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MoePunch's Blog</title><link>https://moe-punch.top/en/</link><description>Recent content on MoePunch's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 MoePunch · Content licensed under CC BY-NC-SA 4.0</copyright><lastBuildDate>Wed, 24 Sep 2025 19:56:08 +0800</lastBuildDate><atom:link href="https://moe-punch.top/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Article</title><link>https://moe-punch.top/en/docs/test-article/</link><pubDate>Wed, 24 Sep 2025 19:56:08 +0800</pubDate><guid>https://moe-punch.top/en/docs/test-article/</guid><description>&lt;h1 class="relative group"&gt;This is a test article
 &lt;div id="this-is-a-test-article" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
@@ -11,7 +11,7 @@ class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal te
 New article!
 &lt;/span&gt;
 &lt;/span&gt;
-&lt;p&gt;111&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://moepunchqwq.github.io/docs/test-article/featured.png"/></item><item><title>About</title><link>https://moepunchqwq.github.io/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moepunchqwq.github.io/en/about/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+&lt;p&gt;111&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://moe-punch.top/docs/test-article/featured.png"/></item><item><title>About</title><link>https://moe-punch.top/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moe-punch.top/en/about/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
 Something about me
 &lt;/div&gt;
 &lt;hr&gt;

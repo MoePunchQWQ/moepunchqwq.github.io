@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://moepunchqwq.github.io/sitemap.xml
+Sitemap: https://moe-punch.top/sitemap.xml
